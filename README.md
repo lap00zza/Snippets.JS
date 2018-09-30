@@ -1,5 +1,5 @@
 # Snippets.JS
-Useful javascript snippets #hacktoberfest2k17
+Useful javascript snippets #hacktoberfest2k18
 
 ## How to contribute?
 * Fork this Repo
