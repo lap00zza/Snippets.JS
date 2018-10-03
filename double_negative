@@ -1,0 +1,16 @@
+// 1 is 'truthy' but not true
+console.log(true == 1) //true
+console.log(true === 1) //false
+
+// !1 is false
+console.log(false == !1) //true
+
+// So !!1 is converted to true
+console.log(true === !!1) //true
+
+// And it works for other truthy / falsy values
+console.log(true === !!"anything")
+console.log(false === !!"")
+
+// Example
+const hasValue = !!"";
