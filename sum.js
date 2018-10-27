@@ -1,0 +1,8 @@
+// add all parameter and return
+
+const sum =(...rest) => rest
+    .reduce((accumulated, current) => accumulated + current);
+    
+    
+// Example
+console.log(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)); //55
